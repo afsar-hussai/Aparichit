@@ -1,0 +1,19 @@
+{
+  "name": "aparichit",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "FRONTEND":"cd Frontend && bun dev",
+    "BACKEND":"cd Backend && bun dev",
+    "aparichit":"concurrently --names \"FRONTEND,BACKEND \" --prefix-colors \"blue,green\" \"bun run FRONTEND\" \"bun run BACKEND"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
