@@ -11,7 +11,8 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "dev": "node --watch server.js"
+    "dev": "bun server.js",
+    "start": "bun server.js"
   },
   "type": "commonjs"
 }
