@@ -24,10 +24,10 @@ const Complain = () => {
   const handleSubmit=async (e)=>{
     e.preventDefault();
     navigate('/success');
-    console.log("this is text and email",text,email);
+    
     const response=await backendCom.sendMail(email,text);
 
-    console.log("response in complain is: ",response);
+   
 
     toast.warning(response.message);
     
