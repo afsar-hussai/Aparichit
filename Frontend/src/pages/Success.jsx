@@ -19,7 +19,7 @@ const Success = () => {
   
       <video 
       ref={videoRef} 
-      src="/src/Aparichit files/videos/Video 2.mp4" className="flex w-full h-full object-cover"  
+      src="/videos/Video2.mp4" className="flex w-full h-full object-cover"  
       autoPlay 
       muted={muted}
       onEnded={()=>navigate('/thanks')}

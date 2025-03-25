@@ -41,7 +41,7 @@ const Complain = () => {
     onClick={handleMute}
     className="h-screen bg-[url('/images/complain2.jpg')] bg-cover relative ">
 
-      <audio ref={audioRef} src="/src/Aparichit files/Theme Song.mp3" autoPlay loop></audio>
+      <audio ref={audioRef} src="/Theme_Song.mp3" autoPlay loop></audio>
 
       <div >
 

@@ -6,7 +6,9 @@ const nodemailer=require('nodemailer');
 require('dotenv').config()
 
 // Middleware (for parsing JSON)
-app.use(cors())
+app.use(cors({
+  origin:["http://localhost:3000",""]
+}))
 app.use(express.json());
 
 // Basic Route

@@ -29,7 +29,7 @@ function App() {
   
       <video 
       ref={videoRef} 
-      src="/src/Aparichit files/videos/Video 1.mp4" className="flex w-full h-full object-cover"  
+      src="/videos/Video1.mp4" className="flex w-full h-full object-cover"  
       onEnded={()=>navigate('/complain')}
       autoPlay 
       muted={muted}>
