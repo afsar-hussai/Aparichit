@@ -11,7 +11,11 @@ app.use(express.json());
 
 // Basic Route
 app.get("/", (req, res) => {
-    res.send("Welcome to the Express Server!");
+    res.send({
+      activeStatus:true,
+      error:false
+    });
+    // "Welcome to the Express Server!"
 });
 
 app.post('/sendmail',async (req,res)=>{
